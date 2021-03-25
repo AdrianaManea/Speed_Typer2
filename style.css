@@ -9,7 +9,6 @@ body {
   min-height: 100vh;
   margin: 0;
   background-image: radial-gradient(#007580 10%, #2b2e4a 70%);
-  /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
 }
 
 body, .quote-input {
@@ -56,4 +55,13 @@ body, .quote-input {
 
 .quote-input:focus {
   border-color: #007580;
+}
+
+.correct {
+  color: greenyellow;
+}
+
+.incorrect {
+  color:orangered;
+  text-decoration: underline;
 }
